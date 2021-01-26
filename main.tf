@@ -8,3 +8,7 @@ resource "aws_s3_bucket" "bucket" {
     error_document = "error.html"
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+}
